@@ -9,8 +9,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="background-color:darkgray;">
-  
+<body>
+
   <script srcs="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -61,18 +61,21 @@
     </div>
   </nav>
 
-  <div id="carouselExampleCaptions" class="carousel slide w-100 carousel-fade" >
+  <div id="carouselExampleCaptions" class="carousel slide w-100 carousel-fade">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="https://source.unsplash.com/1400x400/?ocean" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h4>Ocean</h4>
-          <p>Some representative placeholder content for the first slide.</p>
+          <p>Some representative placeholder content asdfor the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
@@ -100,7 +103,65 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <div class="container">
+    <div class="row mb-2 my-5 bg-white ">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+            <h3 class="mb-0">Coding Post</h3>
+            <div class="mb-1 text-body-secondary">May 20</div>
+            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+              additional content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/200x220/?vibe" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+            <h3 class="mb-0">Post title of Coder</h3>
+            <div class="mb-1 text-body-secondary">May 20</div>
+            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+              content.</p>
+            <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+              Continue reading
+              <svg class="bi">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://source.unsplash.com/200x220/?anime" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+  
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none" previewlistener="true">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+    </footer>
+  </div>
 </body>
 
 </html>
